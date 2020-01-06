@@ -17,10 +17,11 @@ yt-live-chat-author-chip {
   order: 1;
 }
 
-/*全体を右寄せ*/
+/*テキスト部全体*/
 yt-live-chat-text-message-renderer #content {
-  text-align: right;
-  margin: 0 0 0 auto;
+  width: auto; /*名前、メッセージの横幅を固定にする場合は 数値px 指定を行う*/
+  text-align: right; /*右寄せ*/
+  margin: 0 0 0 auto; /*右寄せ*/
 }
 
 /*バッジを非表示 ※尖りの位置がずれる*/
