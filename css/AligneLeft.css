@@ -4,6 +4,11 @@
 */
 
 /*Speech bubble*/
+/*テキスト部全体*/
+yt-live-chat-text-message-renderer #content{
+  width: auto; /*名前、メッセージの横幅を固定にする場合は 数値px 指定を行う*/
+}
+
 /*吹き出しの尖った部分*/
 yt-live-chat-text-message-renderer #author-name:after {
   content: "";
