@@ -1,0 +1,60 @@
+/*
+  右揃え用です.
+  以下のコードを「Chat v2.0 Style Generator」で生成したCSSコードの最下部にコピペしてください.
+*/
+
+/*Speech bubble*/
+/*アイコンと名前の位置を入れ替える*/
+yt-live-chat-text-message-renderer {
+  display: flex;
+}
+
+yt-img-shadow {
+  order: 2;
+}
+
+yt-live-chat-author-chip {
+  order: 1;
+}
+
+/*全体を右寄せ*/
+yt-live-chat-text-message-renderer #content {
+  text-align: right;
+  margin: 0 0 0 auto;
+}
+
+/*バッジを非表示 ※尖りの位置がずれる*/
+yt-live-chat-text-message-renderer #chip-badges {
+  display: none;
+}
+
+yt-live-chat-text-message-renderer #chat-badges {
+  display: none;
+}
+
+/*吹き出しの尖った部分*/
+yt-live-chat-text-message-renderer #author-name:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 10px; /*上下位置調*/
+  right: -24px; /*左右位置(値が小さい程右へ)*/
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 20px 0px 0px; /*大きさ*/
+  border-color: rgba(255,255,255,255) rgba(0,0,0,0); /*色*/
+  transform: rotate(-20deg); /*角度*/
+  margin: 0 0 0 auto;
+}
+
+/*吹き出しのメッセージ部分*/
+yt-live-chat-text-message-renderer #message {
+  display: block;
+  position: relative;
+  top: -8px; /*上下位置*/
+  background-color : rgba(255,255,255,255); /*色*/
+  padding : 5px 8px 5px 8px; /*塗りつぶし余白 上側から時計回り*/
+  border-radius: 10px 10px 10px 10px; /*角丸 左上から時計回り*/
+  text-align: left;
+}
