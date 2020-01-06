@@ -24,6 +24,7 @@ yt-live-chat-text-message-renderer #message {
   display: block;
   position: relative;
   top: -8px; /*上下位置*/
+  margin-left: 0px; /*左右位置*/
   background-color : rgba(255,255,255,255); /*色*/
   padding : 5px 8px 5px 8px; /*塗りつぶし余白 上側から時計回り*/
   border-radius: 10px 10px 10px 10px; /*角丸 左上から時計回り*/
