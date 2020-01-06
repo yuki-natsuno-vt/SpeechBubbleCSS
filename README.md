@@ -1,5 +1,5 @@
 # SpeechBubbleCSS
-Youtubeチャットを吹き出しの風に表示するCSSです。
+Youtube Liveのチャットコメントを吹き出しで表示するCSSです。
 
 ![Preview Image](https://pbs.twimg.com/media/ENWrz2YVAAAiI4q?format=jpg&name=small)
 [Twitter](https://twitter.com/yuki_natsuno_vt/status/1213064591233536000)
