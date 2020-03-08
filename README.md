@@ -4,6 +4,7 @@ Youtube Liveのチャットコメントを吹き出しで表示するCSSです�
 [![](https://img.youtube.com/vi/kJ8z5F06qo0/0.jpg)](https://www.youtube.com/watch?v=kJ8z5F06qo0)
 
 ![Preview Image](https://pbs.twimg.com/media/ENWrz2YVAAAiI4q?format=jpg&name=small)
+![Preview Image](https://pbs.twimg.com/media/ESlEZbvUUAAmnp9?format=png&name=small)
 [Twitter](https://twitter.com/yuki_natsuno_vt/status/1213064591233536000)
 
 このCSSはYoutubeのLive配信のチャットの見た目を変更する
