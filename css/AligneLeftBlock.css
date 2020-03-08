@@ -1,0 +1,39 @@
+/*
+  左揃え用(吹き出し内に名前含む)です.
+  以下のコードを「Chat v2.0 Style Generator」で生成したCSSコードの最下部にコピペしてください.
+*/
+
+/*Speech bubble*/
+/*テキスト部全体*/
+yt-live-chat-text-message-renderer #content{
+  width: auto; /*名前、メッセージの横幅を固定にする場合は 数値px 指定を行う*/
+}
+
+/*吹き出しの尖った部分*/
+yt-live-chat-text-message-renderer #content:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 15px; /*上下位置*/
+  left: -24px; /*左右位置*/
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 10px 0px 0px 20px; /*大きさ*/
+  border-color: rgba(255,255,255,255) rgba(0,0,0,0) rgba(0,0,0,0); /*色*/
+  transform: rotate(20deg); /*角度*/
+}
+
+/*吹き出しのメッセージ部分*/
+yt-live-chat-text-message-renderer #content {
+  top: 0px; /*上下位置*/
+  margin-left: 10px; /*左右位置*/
+  background-color : rgba(255,255,255,255); /*色*/
+  padding : 0px 8px 5px 8px; /*塗りつぶし余白 上側から時計回り*/
+  border-radius: 10px 10px 10px 10px; /*角丸 左上から時計回り*/
+}
+
+yt-live-chat-text-message-renderer #message {
+  display: block;
+  margin-top: 5px; /*名前とメッセージの間隔*/
+}
