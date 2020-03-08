@@ -1,6 +1,6 @@
 # SpeechBubbleCSS
 Youtube Liveのチャットコメントを吹き出しで表示するCSSです。
-
+↓導入方法を解説した動画へのリンクです。
 [![](https://img.youtube.com/vi/kJ8z5F06qo0/0.jpg)](https://www.youtube.com/watch?v=kJ8z5F06qo0)
 
 ![Preview Image](https://pbs.twimg.com/media/ENWrz2YVAAAiI4q?format=jpg&name=small)
