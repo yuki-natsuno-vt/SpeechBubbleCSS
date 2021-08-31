@@ -275,7 +275,7 @@ yt-live-chat-text-message-renderer #content {
 }
 
 yt-live-chat-text-message-renderer #message {
-  display: block;
+  display: block; /*この行をコメントアウト、または削除すると名前とメッセージを一行で表示します*/
   margin-top: 5px; /*名前とメッセージの間隔*/
 }
 
